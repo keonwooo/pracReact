@@ -13,6 +13,7 @@ export default function AppCounter() {
             <Counter /> */}
             <Counter cnt={totalCnt} onClick={totalCntClick}/>
             <Counter cnt={totalCnt} onClick={totalCntClick}/>
+            <Counter cnt={totalCnt} onClick={totalCntClick}/>
         </div>
     )
 }
