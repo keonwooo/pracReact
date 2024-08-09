@@ -12,7 +12,8 @@ import AppProducts from './basic/AppProducts';
 // import AppWrap from './AppWrap';
 // import AppCard from './AppCard';
 // import AppTheme from './AppTheme';
-import AppMentorsButton from './AppMentorsButton';
+// import AppMentorsButton from './AppMentorsButton';
+import AppClass from './AppClass';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,7 +30,8 @@ root.render(
     {/* <AppCard /> */}
     {/* <AppTheme /> */}
     {/* <AppMentorsButton /> */}
-    <AppProducts />
+    {/* <AppProducts /> */}
+    <AppClass />
   </React.StrictMode>
 );
 
