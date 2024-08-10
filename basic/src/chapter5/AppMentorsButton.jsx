@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useMemo, useReducer } from "react";
-import personReducer from "./reducer/person-reducer";
+import personReducer from "../reducer/person-reducer";
 
 export default function AppMentorsButton() {
   // const [person, setPerson] = useState(initPerson);
