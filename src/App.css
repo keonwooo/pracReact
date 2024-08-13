@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.listDiv {
+  height: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.insertDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoListDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
