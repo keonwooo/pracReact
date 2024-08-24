@@ -20,4 +20,5 @@ export default function useProducts({ salesOnly }) {
     }, [salesOnly]);
 
     return [loading, error, products];
+    
 }
