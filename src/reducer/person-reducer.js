@@ -33,5 +33,6 @@ export default function personReducer(person, action) {
             throw Error(`알수없는 액션 타입: ${action.type}`);
         }
     }
+    
 
 }
