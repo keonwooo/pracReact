@@ -5,6 +5,20 @@
     background-color: var(--color-bg-dark);
     border-bottom: 1px solid vor(--color-grey);
     margin: 0.5rem 0;
+    padding: 0 0.5rem;
+}
+
+.toggle {
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: var(--color-text);
+    transition: all 150ms ease-out;
+}
+
+.toggle:hover {
+    transform: scale(1.1);
+    color: var(--color-accent);
 }
 
 .filters {
