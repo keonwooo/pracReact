@@ -4,6 +4,7 @@
     align-items: center;
     background-color: var(--color-bg-dark);
     border-bottom: 1px solid vor(--color-grey);
+    margin: 0.5rem 0;
 }
 
 .filters {
