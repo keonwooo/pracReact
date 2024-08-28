@@ -8,6 +8,7 @@
   --color-text: #22243b;
   --color-accent: #f16e03;
   --color-white: white;
+  --color-scrollbar: #aaa7a7;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
   background: rgb(164,255,164);
   background: linear-gradient(90deg, rgba(164,255,164,1) 0%, rgba(136,238,225,1) 94%);
   font-size: 1.2rem;
+  accent-color: var(--color-accent);
 }
 
 #root {
@@ -57,4 +59,20 @@ ul {
 button {
   outline: none;
   border: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-accent);
 }
