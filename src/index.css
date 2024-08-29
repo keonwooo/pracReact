@@ -30,8 +30,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(164,255,164);
-  background: linear-gradient(90deg, rgba(164,255,164,1) 0%, rgba(136,238,225,1) 94%);
+  background: rgb(39,52,69);
+  background: linear-gradient(90deg, rgba(39,52,69,1) 0%, rgba(5,19,34,1) 98%);
   font-size: 1.2rem;
   accent-color: var(--color-accent);
 }
