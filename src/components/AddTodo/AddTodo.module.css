@@ -24,6 +24,7 @@
     padding: 0.2rem;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    width: 7rem;
 }
 
 .button:hover {
